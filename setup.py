@@ -13,7 +13,7 @@ setup(
     packages=find_packages(exclude=["tests.*", "tests", "figs", "examples", "media"]),
     author="Killian Sheriff",
     author_email="ksheriff@mit.edu",
-    description="A python package that implement the geometric object of a simplex.",
+    description="A python package that implements the geometric object of a simplex.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     license="MIT",

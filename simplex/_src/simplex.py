@@ -128,7 +128,9 @@ class Simplex:
             np.array: barycentric coordinates.
         """
         constraint = self.nneigh
-        coords = np.array(list(itertools.product(range(self.nneigh + 1), repeat=self.n_dim + 1)))
+        coords = np.array(
+            list(itertools.product(range(self.nneigh + 1), repeat=self.n_dim + 1))
+        )
         if constraint is not None:
             coords = coords[np.sum(coords, axis=1) == constraint]
         return coords
