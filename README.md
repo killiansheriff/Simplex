@@ -2,6 +2,7 @@
 A python package that implements the geometric object of a [simplex](https://en.wikipedia.org/wiki/Simplex).
 
 ## Usage 
+Here is an example on how to get the mapping from barycentric coordinates (``concentrations``) to cartesian coordinates (``coords``) for a ``n_dim = 2`` for motifs with 12 atoms in their first coordination shell. ``generators`` return the unique set of concentration of the sorted possible concentrations, ``count`` is their multiplicities. This example can be found in the ``examples/`` folder. 
 
 ```python
 import simplex as sp 
