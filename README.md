@@ -1,5 +1,6 @@
 # Simplex 
 ![PyPI Version](https://img.shields.io/pypi/v/simplex.svg) ![PyPI Downloads](https://static.pepy.tech/badge/simplex)
+
 A python package that implements the geometric object of a [simplex](https://en.wikipedia.org/wiki/Simplex).
 
 ## Usage 
