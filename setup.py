@@ -8,7 +8,7 @@ with open(os.path.join(root, "README.md"), "r", encoding="utf-8") as f:
     long_description = f.read()
 
 setup(
-    name="simplex",
+    name="nsimplex",
     version="0.0.1",
     packages=find_packages(exclude=["tests.*", "tests", "figs", "examples", "media"]),
     author="Killian Sheriff",
